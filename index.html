@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>JASJASJAS Gastrobar · La mejor vibra en Lloret de Mar</title>
+<meta name="description" content="JASJASJAS, gastrobar en Lloret de Mar: desayunos, tapas, tortillas, smash burgers, empanadas, cubos de cerveza y pollo al horno los fines de semana. 4,9 ★ en Google.">
+<meta name="theme-color" content="#07070A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Unbounded:wght@600;800;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BarOrPub","name":"JASJASJAS Gastrobar","servesCuisine":["Tapas","Hamburguesas","Tortillas","Empanadas","Pollo asado"],"priceRange":"1-20 €","telephone":"+34619870609","address":{"@type":"PostalAddress","streetAddress":"Carrer de Costa de Carbonell, 28, Local 1","postalCode":"17310","addressLocality":"Lloret de Mar","addressRegion":"Girona","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":41.6997142,"longitude":2.83693},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"23"},"sameAs":["https://www.instagram.com/jasjasjasrestobar/","https://glovoapp.com/es/es/lloret-de-mar/stores/jasjasjas-lloret-de-mar"]}
+</script>
+<style>
+:root{
+  --bk:#07070A; --ink:#0E0E13; --char:#15151C; --char2:#1D1D26;
+  --cream:#FFF4E6; --mute:rgba(255,244,230,.62); --line:rgba(255,244,230,.12);
+  --or:#FF7A1A; --or2:#FFB347; --bl:#2FA8FF; --bl2:#8FD3FF; --pk:#FF3D8B;
+  --neon:'Tilt Neon',sans-serif; --disp:'Unbounded',sans-serif; --sans:'DM Sans',system-ui,sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1); --g:clamp(18px,4vw,48px);
+  --glowO:0 0 6px rgba(255,122,26,.9),0 0 18px rgba(255,122,26,.7),0 0 42px rgba(255,122,26,.45);
+  --glowB:0 0 6px rgba(47,168,255,.95),0 0 18px rgba(47,168,255,.7),0 0 46px rgba(47,168,255,.45);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:hidden;overflow-x:clip}
+body{margin:0;background:var(--bk);color:var(--cream);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+::selection{background:var(--or);color:var(--bk)}
+.wrap{width:min(1260px,100%);margin:0 auto;padding:0 var(--g)}
+.section{padding:clamp(90px,11vw,160px) 0;position:relative}
+.kicker{font:700 12px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--or2);margin:0 0 18px}
+.h2{font:900 clamp(40px,6vw,92px)/.95 var(--disp);letter-spacing:-.02em;text-transform:uppercase;margin:0}
+.neon-o{font-family:var(--neon);color:#FFE3C7;text-shadow:var(--glowO);text-transform:none;letter-spacing:0;font-weight:400}
+.neon-b{font-family:var(--neon);color:#E3F4FF;text-shadow:var(--glowB);text-transform:none;letter-spacing:0;font-weight:400}
+.lead{font-size:clamp(17px,1.45vw,20px);color:var(--mute);max-width:52ch;margin:22px 0 0}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;height:56px;padding:0 26px;border-radius:999px;font-weight:700;font-size:15.5px;transition:transform .45s var(--ease),box-shadow .45s,background .3s,color .3s}
+.btn svg{width:18px;height:18px}
+.btn-or{background:var(--or);color:var(--bk);box-shadow:0 0 0 rgba(255,122,26,0)}
+.btn-or:hover{box-shadow:var(--glowO);transform:translateY(-2px)}
+.btn-line{border:1.5px solid rgba(47,168,255,.7);color:#E3F4FF}
+.btn-line:hover{box-shadow:var(--glowB),inset 0 0 14px rgba(47,168,255,.35);transform:translateY(-2px)}
+[data-reveal]{opacity:0;transform:translateY(36px);transition:opacity 1s var(--ease),transform 1.1s var(--ease);transition-delay:var(--d,0s)}
+[data-reveal].in{opacity:1;transform:none}
+
+/* Nav */
+.nav{position:fixed;inset:0 0 auto;z-index:100;transition:background .5s,transform .6s var(--ease)}
+.nav.solid{background:rgba(7,7,10,.72);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 1px 0 var(--line)}
+.nav.hide{transform:translateY(-100%)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:18px;height:76px}
+.logo{font:400 26px/1 var(--neon);color:#E3F4FF;text-shadow:var(--glowB);letter-spacing:.04em;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.logo .cr{width:30px;height:22px;filter:drop-shadow(0 0 4px var(--or)) drop-shadow(0 0 10px rgba(255,122,26,.6))}
+.nav-links{display:flex;gap:2px}
+.nav-links a{padding:10px 13px;font-size:14px;font-weight:700;color:rgba(255,244,230,.75);border-radius:999px;transition:color .3s,background .3s}
+.nav-links a:hover{color:var(--cream);background:rgba(255,244,230,.07)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.status{display:inline-flex;align-items:center;gap:9px;height:38px;padding:0 14px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;font-weight:700;white-space:nowrap}
+.status i{width:8px;height:8px;border-radius:50%;background:#777;flex:none;position:relative}
+.status.open i{background:#39FF8E;box-shadow:0 0 10px #39FF8E}
+.nav-cta{height:42px;padding:0 18px;font-size:14px}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);place-items:center}
+.burger span{display:block;width:18px;height:2px;background:var(--cream);box-shadow:0 6px 0 var(--cream),0 -6px 0 var(--cream)}
+.mnav{position:fixed;inset:0;z-index:110;background:var(--bk);padding:100px var(--g) 40px;display:flex;flex-direction:column;justify-content:space-between;opacity:0;visibility:hidden;transition:opacity .5s,visibility 0s .5s}
+.mnav.open{opacity:1;visibility:visible;transition:opacity .5s}
+.mnav ul{list-style:none;margin:0;padding:0}
+.mnav li a{display:block;font:400 clamp(44px,12vw,64px)/1.15 var(--neon);color:#FFE3C7;opacity:0;transform:translateX(-20px);transition:opacity .5s,transform .6s var(--ease),text-shadow .3s}
+.mnav li:nth-child(even) a{color:#E3F4FF}
+.mnav.open li a{opacity:1;transform:none;transition-delay:calc(.1s + var(--k)*.06s)}
+.mnav li a:hover{text-shadow:var(--glowO)}
+.mclose{position:absolute;top:20px;right:var(--g);height:46px;padding:0 18px;border-radius:999px;border:1px solid var(--line);font-weight:700}
+.mnav p{margin:0;color:var(--mute)}
+
+/* Hero */
+.hero{position:relative;min-height:100svh;display:grid;place-items:center;overflow:hidden;padding:110px 0 70px;isolation:isolate}
+.brick{position:absolute;inset:0;z-index:-2;background:
+  radial-gradient(ellipse at 50% 42%,rgba(47,168,255,.16),transparent 55%),
+  radial-gradient(ellipse at 50% 30%,rgba(255,122,26,.12),transparent 45%),
+  repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 2px,transparent 2px 46px),
+  repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 2px,transparent 2px 92px),
+  #0A0A0E}
+.brick::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 44px,rgba(255,255,255,.03) 44px 46px,transparent 46px 92px);background-size:100% 96px;-webkit-mask:repeating-linear-gradient(0deg,transparent 0 48px,#000 48px 96px);mask:repeating-linear-gradient(0deg,transparent 0 48px,#000 48px 96px)}
+.hero::after{content:'';position:absolute;inset:auto 0 0;height:30%;z-index:-1;background:linear-gradient(transparent,var(--bk))}
+.sign{position:relative;text-align:center;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+.sign .crown{width:min(300px,52vw);height:auto;margin:0 auto -6px;display:block}
+.crown path{fill:none;stroke:#FFB37A;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 3px var(--or)) drop-shadow(0 0 10px var(--or)) drop-shadow(0 0 26px rgba(255,122,26,.6));opacity:.08;transition:opacity .2s}
+.crown.on path{opacity:1;animation:hum 6s infinite}
+.word{display:inline-flex;font:400 clamp(40px,13.4vw,230px)/1 var(--neon);letter-spacing:.02em;padding:.08em .18em;max-width:100%;border:3px solid rgba(47,168,255,.1);border-radius:.18em;transition:border-color .3s,box-shadow .3s}
+.word.on{border-color:#9AD8FF;box-shadow:var(--glowB),inset 0 0 22px rgba(47,168,255,.4)}
+.word span{color:rgba(227,244,255,.1);transition:color .08s,text-shadow .08s}
+.word span.on{color:#EAF7FF;text-shadow:var(--glowB)}
+.word span.flick{animation:flick 4.5s infinite}
+@keyframes flick{0%,91%,100%{opacity:1}92%{opacity:.25}93%{opacity:1}95%{opacity:.4}96%{opacity:1}}
+@keyframes hum{0%,96%,100%{opacity:1}97%{opacity:.55}}
+.hero-sub{text-align:center;margin-top:30px}
+.hero-sub .tag{font:800 clamp(14px,1.4vw,18px)/1.4 var(--disp);letter-spacing:.18em;text-transform:uppercase;opacity:0;transform:translateY(12px);transition:1s var(--ease)}
+.hero-sub p{max-width:56ch;margin:14px auto 0;color:var(--mute);font-size:clamp(16px,1.3vw,18.5px);opacity:0;transform:translateY(12px);transition:1s var(--ease) .12s}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:28px;opacity:0;transform:translateY(12px);transition:1s var(--ease) .24s}
+.hero-meta{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:26px;opacity:0;transition:1s var(--ease) .36s}
+.lit .hero-sub .tag,.lit .hero-sub p,.lit .hero-ctas,.lit .hero-meta{opacity:1;transform:none}
+.pill{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:999px;background:rgba(255,244,230,.06);border:1px solid var(--line);font-size:13.5px;font-weight:700;transition:border-color .3s}
+a.pill:hover{border-color:var(--or)}
+.pill b{color:#FFC233}
+.tap-hint{position:absolute;right:-6px;top:30%;font:400 15px var(--neon);color:#FFE3C7;text-shadow:var(--glowO);transform:rotate(8deg);opacity:0;transition:opacity 1s 1.4s}
+.lit .tap-hint{opacity:.9}
+.jas{position:fixed;z-index:160;pointer-events:none;font:400 32px/1 var(--neon);animation:jas 1.6s var(--ease) forwards}
+@keyframes jas{0%{transform:translate(-50%,-50%) scale(.3) rotate(var(--r));opacity:0}15%{opacity:1}100%{transform:translate(calc(-50% + var(--x)),calc(-50% + var(--y))) scale(1.2) rotate(var(--r));opacity:0}}
+
+/* Marquee */
+.mq{overflow:hidden;border-block:1px solid var(--line);background:var(--ink)}
+.mq-track{display:flex;width:max-content;will-change:transform}
+.mq-track span{display:flex;align-items:center;gap:28px;padding:20px 14px;font:900 clamp(22px,2.6vw,36px)/1 var(--disp);text-transform:uppercase;white-space:nowrap;letter-spacing:-.01em}
+.mq-track span:nth-child(3n+2){font:400 clamp(28px,3.2vw,44px)/1 var(--neon);color:#FFE3C7;text-shadow:var(--glowO);text-transform:none}
+.mq-track span:nth-child(3n){font:400 clamp(28px,3.2vw,44px)/1 var(--neon);color:#E3F4FF;text-shadow:var(--glowB);text-transform:none}
+.mq-track i{font-style:normal;color:var(--or)}
+
+/* Del desayuno al cubo */
+.day{height:420vh;position:relative}
+.day-sticky{position:sticky;top:0;height:100vh;overflow:hidden;display:grid;align-items:center}
+.day-bg{position:absolute;inset:0;transition:background 1.2s var(--ease)}
+.day-grid{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center;padding-top:60px}
+.clock{font:900 clamp(80px,12vw,180px)/.9 var(--disp);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.clock small{display:block;font:700 13px var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--mute);margin-bottom:10px}
+.stages{position:relative;min-height:230px;margin-top:22px}
+.stage{position:absolute;inset:0;opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .8s var(--ease)}
+.stage.on{opacity:1;transform:none}
+.stage h3{margin:0;font:400 clamp(38px,4.6vw,66px)/1 var(--neon)}
+.stage p{margin:14px 0 0;color:rgba(255,244,230,.8);font-size:clamp(16px,1.35vw,19px);max-width:42ch}
+.stage .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.stage .chips span{padding:7px 12px;border-radius:999px;border:1px solid var(--line);font-size:13px;font-weight:700}
+.day-photo{position:relative;aspect-ratio:4/5;max-height:72vh;border-radius:28px;overflow:hidden;justify-self:center;width:100%;max-width:470px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8)}
+.day-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08);transition:opacity .9s var(--ease),transform 1.6s var(--ease)}
+.day-photo img.on{opacity:1;transform:none}
+.day-dots{position:absolute;left:var(--g);bottom:6vh;display:flex;gap:8px}
+.day-dots i{width:34px;height:4px;border-radius:4px;background:var(--line);transition:background .4s,width .5s var(--ease)}
+.day-dots i.on{width:64px;background:var(--or)}
+
+/* Carta */
+.carta-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:44px}
+.tab{height:48px;padding:0 20px;border-radius:999px;border:1px solid var(--line);font-weight:700;font-size:14.5px;transition:all .35s var(--ease)}
+.tab:hover{border-color:rgba(255,244,230,.4)}
+.tab[aria-selected="true"]{background:var(--cream);color:var(--bk);border-color:var(--cream)}
+.tab small{opacity:.55;margin-left:6px}
+.menu{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,60px);margin-top:30px;align-items:start}
+.menu-photo{position:sticky;top:100px;aspect-ratio:1;border-radius:30px;overflow:hidden;background:var(--char)}
+.menu-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .6s,transform 1.2s var(--ease)}
+.menu-photo .badge{position:absolute;left:18px;bottom:18px;padding:10px 16px;border-radius:999px;background:rgba(7,7,10,.75);backdrop-filter:blur(10px);font:400 22px var(--neon);color:#FFE3C7;text-shadow:var(--glowO)}
+.items{list-style:none;margin:0;padding:0}
+.item{display:grid;grid-template-columns:1fr auto;gap:6px 18px;padding:20px 6px;border-bottom:1px solid var(--line);opacity:0;transform:translateY(16px);animation:itemIn .6s var(--ease) forwards;animation-delay:calc(var(--k)*60ms);transition:background .3s,padding .4s var(--ease)}
+.item:hover{background:rgba(255,244,230,.04);padding-left:14px}
+@keyframes itemIn{to{opacity:1;transform:none}}
+.item b{font:800 clamp(17px,1.5vw,20px)/1.2 var(--disp);letter-spacing:-.01em}
+.item .pr{font:400 clamp(24px,2vw,30px)/1 var(--neon);color:#FFE3C7;text-shadow:var(--glowO);white-space:nowrap}
+.item p{grid-column:1/-1;margin:0;color:var(--mute);font-size:14.5px}
+.pack{margin-top:26px;padding:24px;border-radius:24px;background:linear-gradient(135deg,rgba(47,168,255,.12),rgba(255,122,26,.08));border:1px solid rgba(47,168,255,.3)}
+.pack h4{margin:0;font:800 18px var(--disp);text-transform:uppercase}
+.pack p{margin:6px 0 0;color:var(--mute);font-size:14px}
+.emps{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.emp{width:64px;height:64px;border-radius:50% 50% 14px 14px;border:2px dashed rgba(255,244,230,.25);display:grid;place-items:center;font-size:11px;font-weight:700;transition:all .35s var(--ease)}
+.emp.t{background:#B5622B;border:0;color:#fff;transform:rotate(-4deg)}
+.emp.p{background:#E5A04A;border:0;color:var(--bk);transform:rotate(4deg)}
+.pack-btns{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.pack-btns button{height:42px;padding:0 16px;border-radius:999px;border:1px solid var(--line);font-weight:700;font-size:13.5px;transition:background .3s,border-color .3s}
+.pack-btns button:hover{border-color:var(--or)}
+.pack-res{margin-top:14px;font-weight:700}
+.pack-res em{font-style:normal;color:#39FF8E}
+.note{margin-top:18px;font-size:12.5px;color:var(--mute)}
+
+/* Ruleta */
+.rul{background:var(--ink);overflow:hidden}
+.rul-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.wheel-box{position:relative;width:min(100%,520px);aspect-ratio:1;justify-self:center}
+.wheel-box::before{content:'';position:absolute;inset:-4%;border-radius:50%;box-shadow:var(--glowB);border:3px solid #9AD8FF}
+.wheel{width:100%;height:100%;border-radius:50%;transition:transform 5s cubic-bezier(.12,.75,.1,1)}
+.wheel text{font:800 14px var(--disp);fill:#fff;text-transform:uppercase;letter-spacing:.01em}
+.pin{position:absolute;left:50%;top:-6%;width:40px;height:52px;transform:translateX(-50%);z-index:2;filter:drop-shadow(0 0 8px var(--or))}
+.spin{position:absolute;inset:38%;border-radius:50%;background:var(--bk);border:3px solid var(--or);box-shadow:var(--glowO);display:grid;place-items:center;font:400 clamp(22px,2.4vw,30px)/1 var(--neon);color:#FFE3C7;text-shadow:var(--glowO);transition:transform .3s var(--ease)}
+.spin:hover{transform:scale(1.06)}
+.spin:disabled{opacity:.6;cursor:wait}
+.bulbs{position:absolute;inset:-4%;border-radius:50%;pointer-events:none}
+.bulbs i{position:absolute;left:50%;top:50%;width:10px;height:10px;margin:-5px;border-radius:50%;background:#FFE3C7;box-shadow:0 0 8px var(--or2);animation:bulb 1s infinite alternate;animation-delay:calc(var(--k)*-.25s)}
+@keyframes bulb{to{background:#5a3a20;box-shadow:none}}
+.result{margin-top:26px;padding:24px;border-radius:24px;border:1px solid var(--line);background:var(--char);min-height:120px}
+.result small{font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);font-size:11.5px}
+.result b{display:block;margin-top:8px;font:400 clamp(30px,3vw,42px)/1.05 var(--neon);color:#FFE3C7;text-shadow:var(--glowO)}
+.result p{margin:8px 0 0;color:var(--mute);font-size:14.5px}
+.cubos{display:flex;gap:14px;align-items:center;margin-top:24px;padding:18px 20px;border-radius:20px;background:rgba(255,122,26,.08);border:1px solid rgba(255,122,26,.3)}
+.cubos span{font-size:34px}
+.cubos p{margin:0;font-size:15px}
+
+/* Pollo */
+.pollo{overflow:hidden}
+.pollo-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(30px,5vw,80px);align-items:center}
+.roti{position:relative;aspect-ratio:1;border-radius:32px;overflow:hidden;background:radial-gradient(circle at 50% 60%,rgba(255,122,26,.35),transparent 60%),var(--char)}
+.roti img{position:absolute;inset:10%;width:80%;height:80%;object-fit:cover;border-radius:50%;animation:rot 26s linear infinite;box-shadow:0 0 0 10px rgba(255,122,26,.15),0 30px 60px -20px #000}
+@keyframes rot{to{transform:rotate(360deg)}}
+.heat{position:absolute;bottom:4%;left:0;right:0;display:flex;justify-content:center;gap:14px}
+.heat i{width:18px;height:46px;border-radius:50% 50% 40% 40%;background:linear-gradient(to top,#FF3D00,#FFB347,transparent);filter:blur(1px);animation:fire 1s ease-in-out infinite alternate;animation-delay:calc(var(--k)*-.2s)}
+@keyframes fire{to{transform:scaleY(1.35) translateY(-4px);opacity:.7}}
+.weekend{display:flex;gap:8px;margin-top:26px}
+.weekend span{flex:1;padding:14px 8px;border-radius:16px;border:1px solid var(--line);text-align:center;font-weight:700;font-size:13px;color:var(--mute)}
+.weekend span.on{border-color:var(--or);color:var(--cream);background:rgba(255,122,26,.12)}
+.weekend span.today{box-shadow:var(--glowO)}
+.weekend span b{display:block;font:400 26px var(--neon);color:inherit}
+.pollo-state{margin-top:18px;font-weight:700}
+.pollo-state em{font-style:normal;color:var(--or2)}
+
+/* Vibra */
+.vibe-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin-top:50px}
+.vb{border-radius:22px;padding:22px;background:var(--char);border:1px solid var(--line);min-height:170px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .5s var(--ease),border-color .3s,box-shadow .4s}
+.vb:hover{transform:translateY(-6px);border-color:rgba(47,168,255,.6);box-shadow:0 0 30px -8px rgba(47,168,255,.5)}
+.vb span{font-size:30px}
+.vb b{font:800 16px/1.2 var(--disp)}
+.vb small{display:block;margin-top:6px;color:var(--mute);font-size:13px;font-weight:500;font-family:var(--sans)}
+.ev{grid-column:span 3;position:relative;overflow:hidden;min-height:260px;justify-content:flex-end;isolation:isolate}
+.ev img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;opacity:.55;transition:transform 1.2s var(--ease),opacity .6s}
+.ev::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(transparent 20%,rgba(7,7,10,.92))}
+.ev:hover img{transform:scale(1.06);opacity:.75}
+.ev h3{margin:0;font:400 clamp(30px,3vw,42px)/1 var(--neon)}
+.ev p{margin:8px 0 0;color:rgba(255,244,230,.8);font-size:14.5px}
+.ev .go{margin-top:14px;font-weight:700;font-size:14px;color:var(--or2)}
+
+/* Opiniones */
+.rev{background:var(--ink)}
+.rev-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.score{display:flex;align-items:center;gap:20px}
+.score b{font:400 clamp(90px,11vw,160px)/.8 var(--neon);color:#FFE3C7;text-shadow:var(--glowO)}
+.score span{color:var(--mute);font-size:14px}
+.score .st{display:block;color:#FFC233;font-size:22px;letter-spacing:3px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:44px}
+.card{padding:28px;border-radius:24px;background:var(--char);border:1px solid var(--line);transform-style:preserve-3d;transition:transform .2s,border-color .3s;will-change:transform}
+.card:hover{border-color:rgba(255,122,26,.5)}
+.card .st{color:#FFC233;letter-spacing:2px}
+.card q{display:block;margin-top:14px;font:700 clamp(18px,1.6vw,22px)/1.35 var(--sans);quotes:'“' '”'}
+.card cite{display:block;margin-top:18px;color:var(--mute);font-style:normal;font-size:13.5px}
+.rev-link{display:inline-flex;gap:8px;margin-top:30px;font-weight:700;border-bottom:2px solid var(--or);padding-bottom:3px}
+
+/* Visítanos */
+.visit-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:start}
+.htable{width:100%;border-collapse:collapse;margin-top:30px}
+.htable td{padding:14px 4px;border-bottom:1px solid var(--line);font-size:15.5px}
+.htable td:last-child{text-align:right;color:var(--mute)}
+.htable tr.today td{color:var(--cream);font-weight:700}
+.htable tr.today td:first-child::after{content:'Hoy';margin-left:10px;padding:2px 9px;border-radius:999px;background:var(--or);color:var(--bk);font-size:11px}
+.contacts{display:grid;gap:10px;margin-top:28px}
+.contacts a{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-radius:18px;background:var(--char);border:1px solid var(--line);font-weight:700;transition:border-color .3s,box-shadow .4s,transform .4s var(--ease)}
+.contacts a:hover{border-color:var(--or);box-shadow:0 0 24px -8px var(--or);transform:translateX(4px)}
+.contacts a small{color:var(--mute);font-weight:500}
+.map{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:1/1.08;border:1px solid var(--line);background:var(--char)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) invert(.92) contrast(.9) hue-rotate(180deg)}
+.map-pin{position:absolute;left:16px;right:16px;bottom:16px;padding:18px 20px;border-radius:20px;background:rgba(7,7,10,.85);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.map-pin b{display:block}
+.map-pin span{color:var(--mute);font-size:14px}
+
+/* Footer */
+.foot{padding:80px 0 36px;text-align:center;border-top:1px solid var(--line);overflow:hidden}
+.laugh{font:400 clamp(64px,14vw,200px)/1 var(--neon);color:#E3F4FF;text-shadow:var(--glowB);cursor:pointer;user-select:none;display:inline-block;transition:transform .3s var(--ease)}
+.laugh:active{transform:scale(.96)}
+.foot p{color:var(--mute);margin:10px 0 0}
+.foot-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:50px;font-size:13.5px;color:var(--mute)}
+.foot-row a:hover{color:var(--cream)}
+.fab{position:fixed;right:18px;bottom:18px;z-index:90;width:60px;height:60px;border-radius:50%;background:var(--or);color:var(--bk);display:grid;place-items:center;box-shadow:var(--glowO);transform:scale(0);transition:transform .6s var(--ease)}
+.fab.show{transform:none}
+.fab svg{width:24px;height:24px}
+
+@media (max-width:1080px){
+  .nav-links{display:none}
+  .burger{display:grid}
+  .vibe-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .ev{grid-column:span 3}
+}
+@media (max-width:900px){
+  .day-grid,.menu,.rul-grid,.pollo-grid,.visit-grid{grid-template-columns:minmax(0,1fr)}
+  .day-photo{max-height:34vh;aspect-ratio:16/10;max-width:none}
+  .day{height:400vh}
+  .day-grid{gap:18px}
+  .stages{min-height:200px}
+  .menu-photo{position:relative;top:0;aspect-ratio:16/10}
+  .cards{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:640px){
+  .status .st-txt{display:none}
+  .nav-cta{display:none}
+  .logo{font-size:22px}
+  .vibe-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ev{grid-column:span 2}
+  .vb{min-height:150px;padding:18px}
+  .word{border-width:2px}
+  .tap-hint{display:none}
+  .clock{font-size:76px}
+  .stage h3{font-size:36px}
+  .weekend span b{font-size:20px}
+}
+.rm *,.rm *::before,.rm *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#inicio" aria-label="JASJASJAS, inicio"><svg class="cr" viewBox="0 0 60 40" aria-hidden="true"><path d="M6 34 L10 10 L20 22 L30 4 L40 22 L50 10 L54 34 Z" fill="none" stroke="#FFB37A" stroke-width="3" stroke-linejoin="round"/></svg>JASJASJAS</a>
+    <nav class="nav-links" aria-label="Principal">
+      <a href="#dia">El día</a><a href="#carta">Carta</a><a href="#ruleta">Ruleta</a><a href="#pollo">Pollo al horno</a><a href="#vibra">Vibra</a><a href="#opiniones">Opiniones</a><a href="#visitanos">Visítanos</a>
+    </nav>
+    <div class="nav-r">
+      <a class="status" id="status" href="#visitanos"><i></i><span class="st-txt" id="stTxt">…</span></a>
+      <a class="btn btn-or nav-cta" href="tel:+34619870609">Llamar</a>
+      <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true">
+  <button class="mclose" id="mclose" type="button">Cerrar ✕</button>
+  <ul>
+    <li><a href="#dia" style="--k:0">El día</a></li>
+    <li><a href="#carta" style="--k:1">Carta</a></li>
+    <li><a href="#ruleta" style="--k:2">Ruleta</a></li>
+    <li><a href="#pollo" style="--k:3">Pollo al horno</a></li>
+    <li><a href="#vibra" style="--k:4">Vibra</a></li>
+    <li><a href="#opiniones" style="--k:5">Opiniones</a></li>
+    <li><a href="#visitanos" style="--k:6">Visítanos</a></li>
+  </ul>
+  <p>Carrer de Costa de Carbonell, 28 · Lloret de Mar<br><a href="tel:+34619870609">619 87 06 09</a></p>
+</div>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="brick"></div>
+  <div class="wrap">
+    <div class="sign" id="sign" role="button" tabindex="0" aria-label="JASJASJAS. Pulsa para reír">
+      <svg class="crown" id="crown" viewBox="0 0 300 110" aria-hidden="true">
+        <path d="M40 100 L52 30 L92 70 L150 10 L208 70 L248 30 L260 100"/>
+        <path d="M70 100 Q 80 70 70 52 M110 100 Q 122 74 112 58 M150 100 Q 162 66 150 44 M190 100 Q 202 74 190 58 M230 100 Q 240 70 230 52"/>
+      </svg>
+      <div class="word" id="word" aria-hidden="true"></div>
+      <span class="tap-hint" aria-hidden="true">¡tócame! ↙</span>
+    </div>
+    <div class="hero-sub">
+      <div class="tag">La mejor vibra en Lloret de Mar <span class="neon-o">☀</span></div>
+      <p>Gastrobar con comida casera y raciones generosas: desayunos, tapas, tortillas, smash burgers, empanadas, cubos de cerveza y pollo al horno los fines de semana.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-or" href="#carta">Ver la carta <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-line" href="https://glovoapp.com/es/es/lloret-de-mar/stores/jasjasjas-lloret-de-mar" target="_blank" rel="noopener">Pedir a domicilio</a>
+      </div>
+      <div class="hero-meta">
+        <a class="pill" data-rev href="#" target="_blank" rel="noopener"><b>★ 4,9</b> 23 reseñas en Google</a>
+        <span class="pill">1–20 € por persona</span>
+        <span class="pill">📍 Costa de Carbonell, 28</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mq-track" id="mq"></div></div>
+
+<section class="day" id="dia" aria-label="Un día en JASJASJAS">
+  <div class="day-sticky">
+    <div class="day-bg" id="dayBg"></div>
+    <div class="wrap day-grid">
+      <div>
+        <p class="kicker">Un día en JASJASJAS</p>
+        <div class="clock"><small id="clockLbl">Abrimos</small><span id="clock">08:00</span></div>
+        <div class="stages" id="stages">
+          <div class="stage on"><h3 class="neon-o">Buenos días</h3><p>Abrimos temprano para desayunar con calma: café, tostadas y nuestro club sándwich.</p><div class="chips"><span>☕ Café</span><span>🥪 Club sándwich</span><span>🍳 Desayunos</span></div></div>
+          <div class="stage"><h3 class="neon-b">Hora del vermut</h3><p>Raciones generosas, muy ricas y a muy buen precio. Bravas, morritos, callos y mucho más.</p><div class="chips"><span>🌶️ Bravas</span><span>🐷 Morritos</span><span>🍲 Callos</span></div></div>
+          <div class="stage"><h3 class="neon-o">A comer en serio</h3><p>Tortillas de patatas de cinco sabores, smash burgers jugosas y empanadas recién hechas.</p><div class="chips"><span>🍳 Tortillas</span><span>🍔 Smash burger</span><span>🥟 Empanadas</span></div></div>
+          <div class="stage"><h3 class="neon-b">Que empiece la vibra</h3><p>Un cóctel al sol, un cubo de cerveza bien frío y la ruleta del finde. Así termina un buen día.</p><div class="chips"><span>🍹 Cócteles</span><span>🪣 Cubos</span><span>🎡 Ruleta</span></div></div>
+        </div>
+      </div>
+      <div class="day-photo" id="dayPhoto">
+        <img class="on" src="https://images.unsplash.com/photo-1785765904806-0d687601b0d5?auto=format&fit=crop&w=1000&q=70" alt="Bar con letrero de neón por la mañana">
+        <img src="https://images.unsplash.com/photo-1565599837634-134bc3aadce8?auto=format&fit=crop&w=1000&q=70" alt="Patatas bravas" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1607013251379-e6eecfffe234?auto=format&fit=crop&w=1000&q=70" alt="Smash burger con queso y pepinillos" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1726475148440-7def8a170cc1?auto=format&fit=crop&w=1000&q=70" alt="Cubo de cervezas con hielo" loading="lazy">
+      </div>
+    </div>
+    <div class="day-dots" id="dayDots"><i class="on"></i><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<section class="section" id="carta">
+  <div class="wrap">
+    <div class="carta-head">
+      <div><p class="kicker" data-reveal>La carta</p><h2 class="h2" data-reveal>Comida casera,<br><span class="neon-o">sin postureo</span></h2></div>
+      <p class="lead" data-reveal style="max-width:40ch">Lo que más pedís, con sus precios. También a domicilio por Glovo.</p>
+    </div>
+    <div class="tabs" role="tablist" id="tabs" data-reveal></div>
+    <div class="menu" data-reveal>
+      <div class="menu-photo"><img id="mImg" src="" alt=""><span class="badge" id="mBadge"></span></div>
+      <div><ul class="items" id="items"></ul><div id="extra"></div><p class="note">Precios de la carta a domicilio en Glovo. En el bar pueden variar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section rul" id="ruleta">
+  <div class="wrap rul-grid">
+    <div class="wheel-box" data-reveal>
+      <svg class="pin" viewBox="0 0 40 52" aria-hidden="true"><path d="M20 50 L4 18 A16 16 0 1 1 36 18 Z" fill="#FF7A1A"/><circle cx="20" cy="17" r="6" fill="#07070A"/></svg>
+      <div class="bulbs" id="bulbs"></div>
+      <svg class="wheel" id="wheel" viewBox="0 0 400 400" aria-hidden="true"></svg>
+      <button class="spin" id="spin" type="button">¡Gira!</button>
+    </div>
+    <div>
+      <p class="kicker" data-reveal>Weekend de ruleta y cubos</p>
+      <h2 class="h2" data-reveal>¿No sabes<br>qué pedir? <span class="neon-b">Gira</span></h2>
+      <p class="lead" data-reveal>Los fines de semana se juega a la ruleta en el bar mientras cae un cubo de cerveza y unas tapas. Aquí puedes ir calentando: gira y te decimos qué pedir.</p>
+      <div class="result" id="result" data-reveal aria-live="polite"><small>Tu pedido de hoy</small><b>Gira la ruleta</b><p>8 opciones sacadas de nuestra carta.</p></div>
+      <div class="cubos" data-reveal><span>🪣</span><p><b>Viernes, sábado y domingo:</b> cubos de cerveza, tapas y ruleta. ¡Tu cuerpo lo sabe!</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section pollo" id="pollo">
+  <div class="wrap pollo-grid">
+    <div>
+      <p class="kicker" data-reveal>Rostisería del finde</p>
+      <h2 class="h2" data-reveal>Pollo al horno<br><span class="neon-o">con papas fritas</span></h2>
+      <p class="lead" data-reveal>Viernes, sábado y domingo somos rostisería. Llámanos o pasa por el bar, encarga tu pollo y te lo llevas listo para comer.</p>
+      <div class="weekend" id="weekend" data-reveal></div>
+      <p class="pollo-state" id="polloState" data-reveal></p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px" data-reveal>
+        <a class="btn btn-or" href="tel:+34619870609">Encargar mi pollo · 619 87 06 09</a>
+      </div>
+    </div>
+    <div class="roti" data-reveal style="--d:.1s">
+      <img src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?auto=format&fit=crop&w=1000&q=70" alt="Pollo asado dorado" loading="lazy">
+      <div class="heat" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="vibra" style="padding-top:0">
+  <div class="wrap">
+    <p class="kicker" data-reveal>La vibra</p>
+    <h2 class="h2" data-reveal>Ven a desayunar,<br>quédate a <span class="neon-b">la fiesta</span></h2>
+    <div class="vibe-grid">
+      <a class="vb ev" href="https://web.fourvenues.com/es/jasjasjas2" target="_blank" rel="noopener" data-reveal>
+        <img src="https://images.unsplash.com/photo-1671118720343-6f01fad87181?auto=format&fit=crop&w=1200&q=65" alt="" loading="lazy">
+        <div><h3 class="neon-o">Fiestas y eventos</h3><p>Este otoño celebramos el Oktoberfest en pleno corazón de Lloret. Mira los próximos eventos y reserva tu entrada.</p><span class="go">Ver eventos en Fourvenues ↗</span></div>
+      </a>
+      <a class="vb ev" href="https://www.instagram.com/jasjasjasrestobar/" target="_blank" rel="noopener" data-reveal style="--d:.08s">
+        <img src="https://images.unsplash.com/photo-1468056961052-15507578a50d?auto=format&fit=crop&w=1200&q=65" alt="" loading="lazy">
+        <div><h3 class="neon-b">We love summer</h3><p>Cócteles al sol, cubos y buen rollo. Síguenos para no perderte nada.</p><span class="go">@jasjasjasrestobar ↗</span></div>
+      </a>
+      <div class="vb" data-reveal><span>⚽</span><b>Ideal para ver deportes</b></div>
+      <div class="vb" data-reveal style="--d:.05s"><span>📶</span><b>Wi‑Fi</b></div>
+      <div class="vb" data-reveal style="--d:.1s"><span>🥗</span><b>Opciones vegetarianas</b></div>
+      <div class="vb" data-reveal style="--d:.15s"><span>🥡</span><b>Para llevar</b></div>
+      <div class="vb" data-reveal style="--d:.2s"><span>🛵</span><b>A domicilio<small>Con Glovo</small></b></div>
+      <div class="vb" data-reveal style="--d:.25s"><span>💸</span><b>1–20 €<small>por persona</small></b></div>
+    </div>
+  </div>
+</section>
+
+<section class="section rev" id="opiniones">
+  <div class="wrap">
+    <div class="rev-top">
+      <div><p class="kicker" data-reveal>Opiniones en Google</p><h2 class="h2" data-reveal>Lo que dice<br><span class="neon-o">la peña</span></h2></div>
+      <div class="score" data-reveal><b id="score">0</b><span><span class="st">★★★★★</span>23 reseñas en Google</span></div>
+    </div>
+    <div class="cards">
+      <figure class="card" data-reveal data-tilt style="margin:0"><span class="st">★★★★★</span><q>Siempre hay buena vibra y nos saca sonrisas, y la comida mil de diez.</q><cite>Gerardo M. · Google</cite></figure>
+      <figure class="card" data-reveal data-tilt style="margin:0;--d:.08s"><span class="st">★★★★★</span><q>Bar perfecto para tomar algo y picar unas raciones generosas, muy ricas y a muy buen precio.</q><cite>Jorge M. · Google</cite></figure>
+      <figure class="card" data-reveal data-tilt style="margin:0;--d:.16s"><span class="st">★★★★★</span><q>Fuimos muy a menudo, tanto para desayunar como para cenar por la noche.</q><cite>Sindy L. · Google</cite></figure>
+    </div>
+    <a class="rev-link" data-rev href="#" target="_blank" rel="noopener" data-reveal>Ver todas las reseñas en Google ↗</a>
+  </div>
+</section>
+
+<section class="section" id="visitanos">
+  <div class="wrap visit-grid">
+    <div>
+      <p class="kicker" data-reveal>Visítanos</p>
+      <h2 class="h2" data-reveal>Parada<br><span class="neon-b">obligatoria</span></h2>
+      <p class="lead" data-reveal>Carrer de Costa de Carbonell, 28, Local 1 · Lloret de Mar. <span id="stTxt2"></span></p>
+      <table class="htable" data-reveal><tbody id="htable"></tbody></table>
+      <div class="contacts" data-reveal>
+        <a href="tel:+34619870609">619 87 06 09 <small>Llamar o reservar</small></a>
+        <a href="https://glovoapp.com/es/es/lloret-de-mar/stores/jasjasjas-lloret-de-mar" target="_blank" rel="noopener">Pedir en Glovo <small>A domicilio ↗</small></a>
+        <a href="https://www.instagram.com/jasjasjasrestobar/" target="_blank" rel="noopener">@jasjasjasrestobar <small>Instagram ↗</small></a>
+      </div>
+    </div>
+    <div class="map" data-reveal style="--d:.1s">
+      <iframe title="Mapa de JASJASJAS" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=JASJASJAS,+Carrer+de+Costa+de+Carbonell+28,+17310+Lloret+de+Mar&z=16&output=embed"></iframe>
+      <div class="map-pin"><div><b>JASJASJAS</b><span>Costa de Carbonell, 28 · Lloret de Mar</span></div><a class="btn btn-or" style="height:46px;padding:0 18px;font-size:14px" href="https://www.google.com/maps/dir/?api=1&destination=41.6997142,2.83693" target="_blank" rel="noopener">Cómo llegar</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <button class="laugh" id="laugh" type="button" aria-label="Pulsa para reír">jasjasjas</button>
+    <p>Pulsa y ríete un rato. Lo demás, en el bar.</p>
+    <div class="foot-row">
+      <span>© <span id="yr"></span> JASJASJAS Gastrobar · Lloret de Mar</span>
+      <span><a href="tel:+34619870609">619 87 06 09</a> · <a href="https://www.instagram.com/jasjasjasrestobar/" target="_blank" rel="noopener">Instagram</a> · <a data-rev href="#" target="_blank" rel="noopener">Google</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="tel:+34619870609" aria-label="Llamar a JASJASJAS"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></a>
+
+<script>
+const $ = (s, c = document) => c.querySelector(s), $$ = (s, c = document) => [...c.querySelectorAll(s)];
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (RM) document.documentElement.classList.add('rm');
+const REV = 'https://www.google.com/maps/place/JASJASJAS/@41.6997142,2.83693,17z/data=!4m8!3m7!1s0x12bb17ca88e3d235:0x12f87f945cef3f0a!8m2!3d41.6997142!4d2.83693!9m1!1b1!16s%2Fg%2F11x332m99r?hl=es';
+$$('[data-rev]').forEach(a => a.href = REV);
+$('#yr').textContent = new Date().getFullYear();
+
+/* ---------- Letrero de neón: se enciende letra a letra ---------- */
+const word = $('#word');
+word.innerHTML = [...'JASJASJAS'].map((c, i) => `<span${i === 4 ? ' class="x"' : ''}>${c}</span>`).join('');
+const letters = $$('#word span');
+function ignite() {
+  const order = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  if (RM) { letters.forEach(l => l.classList.add('on')); $('#crown').classList.add('on'); word.classList.add('on'); document.body.classList.add('lit'); return; }
+  setTimeout(() => { $('#crown').classList.add('on'); }, 200);
+  order.forEach((k, n) => {
+    const l = letters[k], t = 450 + n * 120;
+    setTimeout(() => l.classList.add('on'), t);
+    if (n % 3 === 1) { setTimeout(() => l.classList.remove('on'), t + 70); setTimeout(() => l.classList.add('on'), t + 150); }
+  });
+  setTimeout(() => { word.classList.add('on'); letters[4].classList.add('flick'); document.body.classList.add('lit'); }, 450 + 9 * 120 + 150);
+}
+addEventListener('load', ignite); if (document.readyState === 'complete') ignite();
+
+/* ---------- JAS JAS JAS: risas al pulsar ---------- */
+function laugh(x, y, n = 9) {
+  if (RM) return;
+  for (let i = 0; i < n; i++) {
+    const s = document.createElement('span'); s.className = 'jas'; s.textContent = ['JAS', 'jas', 'JAJ', 'JAS!', 'jasjas'][i % 5];
+    const a = Math.random() * Math.PI * 2, d = 90 + Math.random() * 170;
+    s.style.left = x + 'px'; s.style.top = y + 'px'; s.style.setProperty('--x', Math.cos(a) * d + 'px'); s.style.setProperty('--y', Math.sin(a) * d - 60 + 'px'); s.style.setProperty('--r', (Math.random() * 50 - 25) + 'deg');
+    const blue = i % 2; s.style.color = blue ? '#E3F4FF' : '#FFE3C7'; s.style.textShadow = blue ? 'var(--glowB)' : 'var(--glowO)'; s.style.fontSize = (22 + Math.random() * 26) + 'px'; s.style.animationDelay = i * 40 + 'ms';
+    document.body.appendChild(s); setTimeout(() => s.remove(), 1800 + i * 40);
+  }
+}
+const at = (el, e) => { const r = el.getBoundingClientRect(); return e && e.clientX ? [e.clientX, e.clientY] : [r.left + r.width / 2, r.top + r.height / 2]; };
+$('#sign').addEventListener('click', e => { laugh(...at(word, e)); letters.forEach((l, k) => { l.classList.remove('on'); setTimeout(() => l.classList.add('on'), 60 + k * 35); }); });
+$('#sign').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); $('#sign').click(); } });
+$('#laugh').addEventListener('click', e => laugh(...at($('#laugh'), e), 14));
+
+/* ---------- Horario (hora de Madrid) ---------- */
+const HOURS = [[[9, 20]], [], [[8, 20]], [[8, 20]], [[8, 20]], [[9, 20]], [[9, 21]]];
+const DAYN = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+const DOW = {Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6};
+function madrid() {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {timeZone: 'Europe/Madrid', weekday: 'short', hour: 'numeric', minute: 'numeric', hourCycle: 'h23'}).formatToParts(new Date()).map(x => [x.type, x.value]));
+  return {d: DOW[p.weekday], h: (+p.hour % 24) + (+p.minute) / 60};
+}
+const fmt = h => `${Math.floor(h)}:${String(Math.round((h % 1) * 60)).padStart(2, '0')}`;
+function status() {
+  const {d, h} = madrid(), today = HOURS[d];
+  const cur = today.find(([a, b]) => h >= a && h < b);
+  if (cur) return {open: true, txt: `Abierto · hasta las ${fmt(cur[1])}`};
+  const later = today.find(([a]) => h < a);
+  if (later) return {open: false, txt: `Cerrado · abre a las ${fmt(later[0])}`};
+  for (let k = 1; k <= 7; k++) { const dd = (d + k) % 7; if (HOURS[dd].length) return {open: false, txt: `Cerrado · abre ${k === 1 ? 'mañana' : 'el ' + DAYN[dd].toLowerCase()} a las ${fmt(HOURS[dd][0][0])}`}; }
+}
+function paint() {
+  const s = status(), {d} = madrid();
+  $('#status').classList.toggle('open', s.open); $('#stTxt').textContent = s.txt; $('#status').setAttribute('aria-label', s.txt);
+  $('#stTxt2').textContent = `Ahora: ${s.txt.toLowerCase()}.`;
+  $('#htable').innerHTML = [1, 2, 3, 4, 5, 6, 0].map(k => `<tr class="${k === d ? 'today' : ''}"><td>${DAYN[k]}</td><td>${HOURS[k].length ? HOURS[k].map(([a, b]) => `${fmt(a)}–${fmt(b)}`).join(' · ') : 'Cerrado'}</td></tr>`).join('');
+  // pollo: viernes, sábado y domingo
+  const WE = [[5, 'Viernes'], [6, 'Sábado'], [0, 'Domingo']];
+  $('#weekend').innerHTML = WE.map(([k, n]) => `<span class="on${k === d ? ' today' : ''}"><b>${n.slice(0, 3)}</b>${n}</span>`).join('');
+  const isWE = [5, 6, 0].includes(d);
+  const left = (5 - d + 7) % 7;
+  $('#polloState').innerHTML = isWE ? (s.open ? '🔥 <em>Hoy hay pollo.</em> Llama y encárgalo.' : '🔥 <em>Hoy es día de pollo.</em> Llama para encargarlo.') : `⏳ ${left === 1 ? "Mañana es día de pollo. <em>Encárgalo ya.</em>" : `Faltan <em>${left} días</em> para el pollo del finde.`}`;
+}
+paint(); setInterval(paint, 60000);
+
+/* ---------- Marquee ---------- */
+const MQ = ['Tortillas', 'Smash burgers', 'Empanadas', 'Cubos de cerveza', 'Ruleta', 'Pollo al horno', 'Bravas', 'Cócteles', 'Desayunos'];
+$('#mq').innerHTML = [...MQ, ...MQ, ...MQ].map(s => `<span>${s} <i>✦</i></span>`).join('');
+
+/* ---------- Reveal ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => { if (!e.isIntersecting) return; e.target.classList.add('in'); io.unobserve(e.target); if (e.target.querySelector('#score') || e.target.id === 'score') countScore(); }), {threshold: .15, rootMargin: '0px 0px -6% 0px'});
+$$('[data-reveal]').forEach(el => io.observe(el));
+function countScore() {
+  const el = $('#score'); if (el.dataset.done) return; el.dataset.done = 1;
+  const t0 = performance.now();
+  const f = n => { const p = Math.min(1, (n - t0) / (RM ? 1 : 1400)); el.textContent = (4.9 * (1 - Math.pow(1 - p, 4))).toFixed(1).replace('.', ','); if (p < 1) requestAnimationFrame(f); };
+  requestAnimationFrame(f);
+}
+
+/* ---------- Carta (precios de Glovo) ---------- */
+const U = (id, w = 1000) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=70`;
+const MENU = {
+  tortillas: {n: 'Tortillas', img: '1639669794539-952631b44515', badge: 'Desde 8,00 €', items: [
+    ['Tortilla de patatas', 8.00, 'La receta clásica que nunca falla: huevo, patata y cebolla pochada.'],
+    ['Tortilla a la barbacoa', 8.50, 'Sabor ahumado e intenso con salsa barbacoa y cebolla caramelizada.'],
+    ['Tortilla picante', 8.50, 'Para los que disfrutan del picante, con un toque de guindilla.'],
+    ['Tortilla jamón y queso', 8.50, 'Jugosa y fundente, con jamón y queso.'],
+    ['Tortilla marinera', 8.50, 'Inspirada en el mar: atún, gambas y mejillones.'],
+  ]},
+  burgers: {n: 'Hamburguesas', img: '1607013251379-e6eecfffe234', badge: 'Todas a 11,50 €', items: [
+    ['Smash Burger', 11.50, 'Ternera tipo smash, crujiente por fuera y jugosa por dentro, con cebolla en dados y salsas.'],
+    ['BBQ Bacon', 11.50, 'Ternera con toque ahumado, salsa barbacoa y cebolla caramelizada.'],
+    ['Clásica Americana', 11.50, 'Ternera con pepinillos extra y mezcla de ketchup y mostaza.'],
+    ['Mediterránea', 11.50, 'Ternera con feta o mozzarella, tomates secos, rúcula y salsa de yogur.'],
+    ['Gourmet de setas y trufa', 11.50, 'Ternera con setas salteadas, brie o gouda y aceite de trufa.'],
+  ]},
+  empanadas: {n: 'Empanadas', img: '1769254870299-338bfd99aabd', badge: 'Pack de 4 · 9,50 €', items: [
+    ['Empanada de ternera', 2.85, 'Rellena de ternera tierna, con verduras y especias seleccionadas.'],
+    ['Empanada de pollo', 2.70, 'Pollo jugoso con sofrito de cebolla, pimiento y especias.'],
+    ['Pack 4 empanadas', 9.50, 'Elige tus favoritas y disfruta aún más.'],
+  ]},
+  bebidas: {n: 'Bebidas', img: '1726475148440-7def8a170cc1', badge: 'Cubos el finde', items: [
+    ['Coca-Cola (lata 330 ml)', 2.50, ''], ['Fanta Naranja (lata 330 ml)', 2.50, ''], ['Aquarius Limón (lata 330 ml)', 2.50, ''], ['Agua (500 ml)', 1.80, ''],
+    ['Cubos de cerveza', null, 'Los fines de semana en el bar, con la ruleta. Pregunta en barra.'],
+  ]},
+};
+const euro = v => v.toFixed(2).replace('.', ',') + ' €';
+let cat = 'burgers';
+$('#tabs').innerHTML = Object.entries(MENU).map(([k, c]) => `<button class="tab" role="tab" data-c="${k}" aria-selected="${k === cat}">${c.n}<small>${c.items.length}</small></button>`).join('');
+function renderMenu() {
+  const c = MENU[cat], img = $('#mImg');
+  img.style.opacity = 0;
+  setTimeout(() => { img.src = U(c.img); img.alt = c.n; img.onload = () => { img.style.opacity = 1; }; }, 200);
+  $('#mBadge').textContent = c.badge;
+  $('#items').innerHTML = c.items.map(([n, p, d], k) => `<li class="item" style="--k:${k}"><b>${n}</b><span class="pr">${p == null ? 'En el bar' : euro(p)}</span>${d ? `<p>${d}</p>` : ''}</li>`).join('');
+  $('#extra').innerHTML = cat === 'empanadas' ? `<div class="pack"><h4>Arma tu pack de 4</h4><p>Toca para añadir empanadas y mira cuánto te ahorras con el pack.</p><div class="emps" id="emps"></div><div class="pack-btns"><button type="button" data-e="t">+ Ternera</button><button type="button" data-e="p">+ Pollo</button><button type="button" data-e="x">Vaciar</button></div><p class="pack-res" id="packRes"></p></div>` : '';
+  if (cat === 'empanadas') renderPack();
+  $$('.tab').forEach(t => t.setAttribute('aria-selected', t.dataset.c === cat));
+}
+let pack = [];
+function renderPack() {
+  $('#emps').innerHTML = [0, 1, 2, 3].map(i => pack[i] ? `<span class="emp ${pack[i]}">${pack[i] === 't' ? 'Ternera' : 'Pollo'}</span>` : '<span class="emp">+</span>').join('');
+  const solo = pack.reduce((s, e) => s + (e === 't' ? 2.85 : 2.70), 0);
+  $('#packRes').innerHTML = pack.length < 4 ? `Te faltan ${4 - pack.length} para completar el pack.` : `Sueltas: ${euro(solo)} · Pack: ${euro(9.5)} · <em>Te ahorras ${euro(solo - 9.5)}</em>`;
+}
+
+/* ---------- Ruleta ---------- */
+const OPTS = [['Smash Burger', 'Crujiente por fuera, jugosa por dentro.', '#FF7A1A', 'Smash'], ['Tortilla BBQ', 'Ahumada, con cebolla caramelizada.', '#1B5FA8', 'Tortilla'], ['Bravas', 'Un clásico para compartir.', '#FF7A1A', 'Bravas'], ['Cubo de cerveza', 'Bien frío, para el finde.', '#1B5FA8', 'Cubo'], ['Pack de empanadas', '4 empanadas a tu gusto.', '#FF7A1A', 'Empanadas'], ['Burger gourmet de trufa', 'Setas, brie y aceite de trufa.', '#1B5FA8', 'Trufa'], ['Morritos', 'Tapa de las de siempre.', '#FF7A1A', 'Morritos'], ['Pollo al horno', 'Con papas fritas, el finde.', '#1B5FA8', 'Pollo']];
+const N = OPTS.length, SEG = 360 / N;
+const arc = (a0, a1, r = 196) => { const p = a => [200 + r * Math.sin(a * Math.PI / 180), 200 - r * Math.cos(a * Math.PI / 180)]; const [x0, y0] = p(a0), [x1, y1] = p(a1); return `M200 200 L${x0} ${y0} A${r} ${r} 0 0 1 ${x1} ${y1} Z`; };
+$("#wheel").innerHTML = OPTS.map(([n, , c, s], i) => `<path d="${arc(i * SEG, (i + 1) * SEG)}" fill="${c}" opacity="${i % 2 ? .95 : .92}" stroke="#07070A" stroke-width="3"/><text transform="rotate(${i * SEG + SEG / 2} 200 200) rotate(-90 200 86)" x="200" y="86" text-anchor="middle" dominant-baseline="central">${s}</text>`).join('') + '<circle cx="200" cy="200" r="196" fill="none" stroke="#9AD8FF" stroke-width="3"/>';
+$('#bulbs').innerHTML = Array.from({length: 24}, (_, k) => { const a = k * 15 * Math.PI / 180; return `<i style="--k:${k};left:${(50 + 50 * Math.sin(a)).toFixed(2)}%;top:${(50 - 50 * Math.cos(a)).toFixed(2)}%"></i>`; }).join('');
+let rot = 0, spinning = false;
+$('#spin').addEventListener('click', () => {
+  if (spinning) return; spinning = true; $('#spin').disabled = true;
+  const pick = Math.floor(Math.random() * N);
+  const target = 360 - (pick * SEG + SEG / 2) + (Math.random() * SEG * .6 - SEG * .3);
+  rot += 360 * 5 + ((target - rot % 360) + 360) % 360;
+  $('#wheel').style.transform = `rotate(${rot}deg)`;
+  $('#result').innerHTML = '<small>Tu pedido de hoy</small><b>Girando…</b><p>Redoble de tambores 🥁</p>';
+  setTimeout(() => {
+    const [n, d] = OPTS[pick];
+    $('#result').innerHTML = `<small>Tu pedido de hoy</small><b>${n}</b><p>${d} Pídelo en barra o llama al 619 87 06 09.</p>`;
+    const r = $('#result').getBoundingClientRect(); laugh(r.left + r.width * .3, r.top + 30, 6);
+    spinning = false; $('#spin').disabled = false;
+  }, RM ? 50 : 5100);
+});
+
+/* ---------- Clicks generales ---------- */
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-c]'); if (t) { cat = t.dataset.c; renderMenu(); return; }
+  const em = e.target.closest('[data-e]');
+  if (em) { const v = em.dataset.e; if (v === 'x') pack = []; else if (pack.length < 4) pack.push(v); renderPack(); }
+});
+renderMenu();
+
+/* ---------- Tarjetas con inclinación ---------- */
+if (!RM && matchMedia('(hover:hover)').matches) $$('[data-tilt]').forEach(c => {
+  c.addEventListener('pointermove', e => { const r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5; c.style.transform = `perspective(800px) rotateY(${x * 10}deg) rotateX(${-y * 10}deg) translateY(-4px)`; });
+  c.addEventListener('pointerleave', () => { c.style.transform = ''; });
+});
+
+/* ---------- Menú móvil ---------- */
+const mnav = $('#mnav'), burger = $('#burger');
+const setMenu = o => { mnav.classList.toggle('open', o); mnav.setAttribute('aria-hidden', !o); burger.setAttribute('aria-expanded', o); document.body.style.overflow = o ? 'hidden' : ''; };
+burger.onclick = () => setMenu(true); $('#mclose').onclick = () => setMenu(false);
+$$('#mnav a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+/* ---------- Scroll ---------- */
+const nav = $('#nav'), fab = $('#fab'), mq = $('#mq'), day = $('#dia'), stages = $$('#stages .stage'), photos = $$('#dayPhoto img'), dots = $$('#dayDots i');
+const TIMES = [['Abrimos', 8, 0], ['Mediodía', 13, 0], ['La comida', 15, 0], ['Atardecer', 19, 0]];
+const BGS = ['radial-gradient(ellipse at 80% 20%,rgba(255,179,71,.28),transparent 55%),#100C0A', 'radial-gradient(ellipse at 70% 10%,rgba(255,224,150,.22),transparent 55%),#0E0D0B', 'radial-gradient(ellipse at 30% 80%,rgba(255,122,26,.22),transparent 55%),#0D0A0A', 'radial-gradient(ellipse at 50% 50%,rgba(47,168,255,.25),transparent 60%),radial-gradient(ellipse at 20% 90%,rgba(255,61,139,.18),transparent 50%),#07070A'];
+let lastY = scrollY, vel = 0, mqX = 0, stIdx = -1;
+function frame() {
+  const y = scrollY, vh = innerHeight;
+  vel += ((y - lastY) - vel) * .12; lastY = y;
+  nav.classList.toggle('solid', y > 30);
+  nav.classList.toggle('hide', y > vh && vel > 4 && !mnav.classList.contains('open'));
+  fab.classList.toggle('show', y > vh * .8);
+  if (!RM) { mqX -= .7 + Math.min(Math.abs(vel) * .3, 12); const half = mq.scrollWidth / 3; if (-mqX > half) mqX += half; mq.style.transform = `translateX(${mqX}px)`; }
+  const r = day.getBoundingClientRect(), p = Math.min(.9999, Math.max(0, -r.top / (r.height - vh)));
+  const i = Math.floor(p * 4);
+  const hh = 8 + p * 12, mm = Math.floor((hh % 1) * 60 / 5) * 5;
+  $('#clock').textContent = `${String(Math.floor(hh)).padStart(2, '0')}:${String(mm).padStart(2, '0')}`;
+  if (i !== stIdx) {
+    stIdx = i;
+    stages.forEach((s, k) => s.classList.toggle('on', k === i));
+    photos.forEach((s, k) => s.classList.toggle('on', k === i));
+    dots.forEach((s, k) => s.classList.toggle('on', k === i));
+    $('#clockLbl').textContent = TIMES[i][0];
+    $('#dayBg').style.background = BGS[i];
+  }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
